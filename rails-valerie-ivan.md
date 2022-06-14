@@ -41,7 +41,7 @@ def cubed
     end
 ```
 ```
-<p>Your Number: <%= @number %> </p>
+<p>Your Number: <%= @number.to_i * @number.to_i * @number.to_i %> </p>
 ```
 
 
