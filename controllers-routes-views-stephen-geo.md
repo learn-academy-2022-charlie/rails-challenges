@@ -20,6 +20,39 @@ Top three books and movies
 Params
 
 As a user, I can visit a page called cubed that takes a number as a param and displays that number cubed.
+
+wrote a new method that convers the user's input to an integer and cubes it (numer.to_i**3)
+created a route that is linked to params
 As a user, I can visit a page called evenly that takes two numbers as params and displays whether or not the first number is evenly divisible by the second.
+
+we created a new method called evenly
+
+we made 2 variables that hold params of numbers
+
+we then made an instanced variabled take those parameters and turn them into integers. 
+
+We then used a ternary operator to check if the integer1 was evenly divisible by interger 2. 
+
+We string interpolated if it was or was not.
+
 As a user, I can visit a page called palindrome that takes a string as a param and displays whether it is a palindrome (the same word forward and backward).
+
+a method that takes a string as a parameter
+make a conditional that checks wheter the string is a palindrome
+
+if(string === string.reverse){
+    is a palindrome
+}
+
 As a user, I can visit a page called madlib that takes params of a noun, verb, adjective, adverb, and displays a short silly story.
+
+create a method called madlib
+created a variable for 
+noun
+verb
+adjective
+adverb
+
+created an instanced variable that string interpolated each variable into a silly story.
+
+
